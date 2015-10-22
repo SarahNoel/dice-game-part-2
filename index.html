@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>
+Let's Roll the Dice!
+    </title>
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Muli' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body>
+
+  <h1> Welcome to High Roller! </h1>
+
+  <br>
+
+  <button class = 'btn btn-warning' id='roll'>Roll the dice!</button>
+
+  <div class="container">
+  <div class='outer'>
+
+    <div class="top" id="player-hand">
+      <h2 class='title'>Your Roll:</h2 class='title'>
+      <span class='dice' id='p-dice1'></span>
+      <span class='dice' id='p-dice2'></span>
+      <span class='dice' id='p-dice3'></span>
+      <h3 id='player-results'></h3>
+
+    </div>
+
+    <div class="top" id="computer-hand">
+      <h2 class='title'>Computer's Roll:</h2 class='title'>
+      <span class='dice' id='c-dice1'></span>
+      <span class='dice' id='c-dice2'></span>
+      <span class='dice' id='c-dice3'></span>
+      <h3 id='comp-results'></h3>
+    </div>
+    </div>
+
+    <div class='results-box'>
+      <h2 id='results'></h2>
+    </div>
+    <br>
+    <div class='score-outer'>
+      <div class='score-box'>
+        <h2>Your Score</h2>
+        <span class='score-spot' id='p-score'>0</span>
+      </div>
+      <div class='score-box'>
+        <h2>Computer's Score</h2>
+        <span class='score-spot' id='c-score'>0</span>
+
+      </div>
+    </div>
+      <br>
+      <br>
+      <button id='reset' class= "btn btn-danger"> Reset </button>
+      <br>
+
+      <h3>RULES:</h3>
+      <h4>Each player rolls three dice.  <br>If you roll a 4, 5, 6, you automatically win! <br> If you roll a 1, 2, 3, you automatically lose. <br> Otherwise, the person with the highest roll wins!</h4>
+      <br>
+      <br>
+      <br>
+
+  </div>
+
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+  </body>
+</html>

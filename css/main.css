@@ -1,0 +1,49 @@
+body{
+  font-family: 'Muli', sans-serif;
+  text-align: center;
+  background-color: #31698A;
+}
+
+h1{
+  color: #e3e3e3;
+}
+
+#results{
+  color: #789545;
+}
+
+.outer{
+  display: inline-flex;
+}
+
+.top{
+  margin-left: 15px;
+  width: 350px;
+  height: 300px;
+}
+
+.title{
+  margin-bottom: -50px;
+}
+
+.dice{
+  font-size: 150px;
+  color: #e3e3e3;
+  font-family: Tahoma;
+}
+
+.score-box{
+  float: left;
+  margin-left: 20px;
+  margin-right: 20px;
+  width: 255px;
+}
+
+.score-spot{
+  font-size: 40px;
+}
+
+.score-outer{
+  display: inline-flex;
+}
+
